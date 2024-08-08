@@ -24,7 +24,7 @@ jobs:
     name: Set Asana task status
     steps:
       - name: Set Asana task status
-        uses: sam-peach/GitHubAsanaStatusAction@main
+        uses: onesignal/asanabot@main
         with:
           asana-api-token: ${{ secrets.ASANA_API_TOKEN }}
 ```
